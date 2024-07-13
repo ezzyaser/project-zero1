@@ -1,0 +1,92 @@
+:root {
+  --main-color: #10cab7;
+}
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+header
+{
+  background-color:white
+}
+
+.logo {
+  width: 70px;
+
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  height: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav ul,li,a  {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none;
+  margin: 5px;
+}
+
+nav a {
+  color: black;
+}
+
+
+.Hero{
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://media.istockphoto.com/id/1464891155/photo/scottish-highlands-in-winter.jpg?s=2048x2048&w=is&k=20&c=hicQOISPFPHv0Ei9Km1gp6wJy0TuQLbQIsSeQUkXHoc=);
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 2;
+}
+
+
+.Hero h1 {
+  font-weight: 900;
+  font-size: 3em;
+  /* color: rgb(59, 212, 156); */
+  color: var(--main-color);
+  margin: 0;
+}
+
+.p-hero {
+  font-weight: bold;
+}
+
+
+.container {
+  width: 60vw;
+  margin: auto;
+  height: 60vh;
+}
+
+.items {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-auto-flow: column;
+  text-align: center;
+  justify-content:space-between ;
+  align-items: center;
+}
+
+.item i {
+  color: var(--main-color);
+  
+}
